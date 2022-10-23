@@ -1,0 +1,80 @@
+main{
+    background-color: #E5E5E5;
+}
+
+main{
+    padding: 25px;
+}
+
+section{
+    background-color: #C4C4C4;
+    padding: 50px;
+}
+
+.conteiner{
+    margin: 0 0 50px;
+    background-color: #E5E5E5;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover{
+    background-color: rgb(123, 131, 250);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.conteiner::after{
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+p{
+    font-weight: 700;
+    font-size: 64px;
+    color: #Fff;
+    margin: 0;
+    text-align: center;
+}
+
+.box11,
+.box10,
+.box9,
+.box8,
+.box3,
+.box2,
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    float: left;
+}
+
+.box2{
+    float: right;
+}
+
+.box4,
+.box5,
+.box6,
+.box7{
+    width: 100px;
+    height: 100px;
+    background-color: #FC8F8F;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+.boxwrap{
+    float: right;
+}
+
+.box9,
+.box10{
+    margin: 0 15px;
+}
